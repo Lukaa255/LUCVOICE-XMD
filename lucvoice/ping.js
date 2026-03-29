@@ -18,7 +18,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
     const date = moment().format("DD/MM/YYYY");
     const uptime = os.uptime();
 
-    let msg = `╭─❏ *📡 NEXUS-AI PING*\n` +
+    let msg = `╭─❏ *📡 LUCVOICE-XMD PING*\n` +
               `│\n` +
               `│ ⏱️ Response: *${ping}ms*\n` +
               `│ 📆 Date: *${date}*\n` +
@@ -34,11 +34,11 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363417804135599@newsletter",
-          newsletterName: "NEXUS-AI",
+          newsletterName: "LUCVOICE-XMD",
           serverMessageId: 143
         },
         externalAdReply: {
-          title: "⚡ NEXUS-AI SYSTEM STATUS",
+          title: "⚡ LUCVOICE-XMD SYSTEM STATUS",
           body: "Bot is running smoothly 🚀",
           thumbnailUrl: conf.LOGO, // use your logo in set.js
           sourceUrl: conf.GURL,
