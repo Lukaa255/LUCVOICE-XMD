@@ -135,7 +135,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ NEXUS-AI┗━━━┓
+┏━━━┛ LUCVOIC-XMD┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -211,7 +211,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ NEXUS-AI rank┗━━━┓
+┏━━━┛ LUCVOICE-XMD rank┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -252,7 +252,7 @@ zokou( {
     const {ms , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ nexus-ai-top-rang ┗━━┓\n\n`
+       let msg = `┏━━┛ lucvoice-xmd-top-rang ┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
