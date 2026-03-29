@@ -16,7 +16,7 @@ zokou({ nomCom: "test", categorie: "General" }, async (dest, zk, commandeOptions
     const time = moment().format("HH:mm:ss");
     const date = moment().format("DD/MM/YYYY");
 
-    let msg = `╭─❏ *🛠️ NEXUS-AI TEST*\n` +
+    let msg = `╭─❏ *🛠️ LUCVOICE-XMD TEST*\n` +
               `│\n` +
               `│ 📡 Ping: *${ping}ms*\n` +
               `│ 📆 Date: *${date}*\n` +
@@ -31,7 +31,7 @@ zokou({ nomCom: "test", categorie: "General" }, async (dest, zk, commandeOptions
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "NEXUS-AI",
+          newsletterName: "LUCVOICE-XMD",
           serverMessageId: 143
         },
         externalAdReply: {
