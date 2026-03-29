@@ -114,7 +114,7 @@ setTimeout(() => {
         store.bind(zk.ev);
         // Replace the status reaction code with this:
 
-if (conf.AUTOREACT_STATUS=== "yes") {
+if (conf.AUTO_REACT_STATUS=== "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         
