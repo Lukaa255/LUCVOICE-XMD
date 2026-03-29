@@ -20,7 +20,7 @@ zokou({
 
         if (!arg[0]) {
             return zk.sendMessage(dest, {
-                text: `╭─❏ *🔐 NEXUS-AI PAIR SYSTEM*\n│\n│ 📌 Usage: *pair <number>*\n│ 📌 Example: *pair 254712345678*\n│\n╰───────────────❏`,
+                text: `╭─❏ *🔐 LUCVOICE-XMD PAIR SYSTEM*\n│\n│ 📌 Usage: *pair <number>*\n│ 📌 Example: *pair 254712345678*\n│\n╰───────────────❏`,
             }, { quoted: ms });
         }
 
