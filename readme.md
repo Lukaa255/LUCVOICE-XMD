@@ -13,10 +13,10 @@
 </p>  
   
 <p align="center" style="margin-top: 5px;">
-  <a href="https://github.com/Lukabrand/LUCVOICE-XMD" target="_blank">
+  <a href="https://github.com/Lukaa255/LUCVOICE-XMD" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=plastic&logo=github&logoColor=white&labelColor=181717" alt="GitHub Repo" />
   </a>
-  <a href="https://github.com/Lukabrand/LUCVOICE-XMD/stargazers" target="_blank">
+  <a href="https://github.com/Lukaa255/LUCVOICE-XMD/stargazers" target="_blank">
     <img src="https://img.shields.io/badge/Stars-Count-yellow?style=plastic&logo=github&logoColor=white&labelColor=181717" alt="Stars Count" />
   </a>
   <a href="https://t.me/your-channel" target="_blank">
@@ -30,7 +30,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐅𝐎𝐑𝐊+ᴀɴᴅ+𝐒𝐓𝐀𝐑+𝐑𝐄𝐏𝐎)](https://git.io/typing-svg)
 
 <p align="center" style="margin-top: 5px;">
-  <a href="https://github.com/Lukabrand/LUCVOICE-XMD" target="_blank">
+  <a href="https://github.com/Lukaa255/LUCVOICE-XMD" target="_blank">
     <img src="https://img.shields.io/badge/FORK-REPO-181717?style=plastic&logo=github&logoColor=white&labelColor=181717" alt="FORK REPO" />
   </a>
 
@@ -70,7 +70,7 @@ Choose your preferred cloud platform to host **LUCVOICE-XMD**:
       <td><a href="https://talkdrove.com" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=Iphone255/IPHONE-XMD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=Lukaa255/LUCVOICE-XMD-XMD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
