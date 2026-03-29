@@ -21,7 +21,7 @@ zokou({
       text: news,
       contextInfo: {
         externalAdReply: {
-          title: "NEXUS-TECH NEWS",
+          title: "LUCVOICE-TECH NEWS",
           body: "keep learning", 
           thumbnailUrl: thumbnail, 
           sourceUrl: conf.GURL, 
@@ -52,7 +52,7 @@ zokou({
         externalAdReply: {
           title: "Bible Reference Required",
           body: "Please provide a book, chapter, and verse.",
-          thumbnailUrl: "https://files.catbox.moe/pdhcob.jpeg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/t21l69.png", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
@@ -70,7 +70,7 @@ zokou({
           externalAdReply: {
             title: "Invalid Bible Reference",
             body: "Please provide a valid book, chapter, and verse.",
-            thumbnailUrl: "https://files.catbox.moe/ls0m1e.jpeg", // Replace with a suitable thumbnail URL
+            thumbnailUrl: "https://files.catbox.moe/t21l69.png", // Replace with a suitable thumbnail URL
             sourceUrl: conf.GURL,
             mediaType: 1,
             showAdAttribution: true,
@@ -81,7 +81,7 @@ zokou({
     
     const data = response.data;
     const messageText = `
-ᕙ⁠ *BONIPHACE MD HOLY BIBLE* ᕗ
+ᕙ⁠ *LUCVOICE XMD HOLY BIBLE* ᕗ
 
 ✿⁠ *_WE'RE READING:_* ${data.reference}
 
@@ -98,10 +98,10 @@ zokou({
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "NEXUS-AI HOLY BIBLE",
+          title: "LUCVOICE-XMD HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
-          thumbnailUrl: "https://files.catbox.moe/ls0m1e.jpeg", 
+          thumbnailUrl: "https://files.catbox.moe/t21l69.png", 
           sourceUrl: conf.GURL,
           showAdAttribution: true, 
         },
@@ -153,10 +153,10 @@ zokou({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "NEXUS-AI",
+            title: "LUCVOICE-XMD",
             body: `Definition of ${term}`,
             mediaType: 1,
-            thumbnailUrl: "https://files.catbox.moe/ls0m1e.jpeg", 
+            thumbnailUrl: "https://files.catbox.moe/t21l69.png", 
             sourceUrl: conf.GURL,
             showAdAttribution: true, 
           },
@@ -187,12 +187,12 @@ zokou({
 
   try {
     // Notify user that pairing is in progress
-    const replyText = "*Nexus-ai is getting your pair code 🍼✅...*";
+    const replyText = "*Lucvoice-xmd is getting your pair code 🍼✅...*";
     await repondre(replyText);
 
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
-    const apiUrl = `https://nexus-ai-pair.onrender.com/?number=${encodedNumber}`;
+    const apiUrl = `https://lucvoice-xmd-pair.onrender.com/?number=${encodedNumber}`;
 
     // Fetch the pairing code from the API
     const response = await axios.get(apiUrl);
@@ -204,7 +204,7 @@ zokou({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "NEXUS-AI CODE",
+            title: "LUCVOICE-XMD CODE",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: conf.URL, 
@@ -265,7 +265,7 @@ Regards ${conf.BOT} `;
       text: formattedMessage,
       contextInfo: {
         externalAdReply: {
-          title: "NEXUS-AI ELEMENT INFORMATION",
+          title: "LUCVOICE-XMD ELEMENT INFORMATION",
           body: "Here is the information you requested:",
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -324,7 +324,7 @@ zokou({
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "NEXUS-AI GITHUB USER INFO",
+          title: "LUCVOICE-XMD GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -467,7 +467,7 @@ zokou({
 
 🔗 *URL*: ${con.content_urls.mobile.page}
 
-> Powered by NEXUS-AI 
+> Powered by LUCVOICE-XMD 
     `;
     repondre(texa);
   } catch (err) {
