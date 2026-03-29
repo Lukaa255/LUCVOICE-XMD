@@ -3,7 +3,7 @@
   "description":"Best whatsapp bot💥 developed by Lucvoice",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/t21l69.png",
-  "repository":"https://github.com/Lukaa255/LUCVOICE-XMD",
+  "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
@@ -149,4 +149,4 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ]
-}maths-project
+}
