@@ -1,27 +1,29 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "ping", reaction: "🚀", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-    console.log("Commande saisie !!!s");
-    let z = '𝗖𝗵𝘂𝗴𝗮 𝘅𝗺𝗱 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝘀𝗽𝗲𝗲𝗱 𝗶𝘀';
-    let d = '𝟖𝟎.𝟗𝟏𝐌/𝐬';
-    let varmess = z + d;
-    var img = 'https://files.catbox.moe/ety154.jpg';
-    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
-    //console.log("montest")
-});
-console.log("mon test");
-/*module.exports.commande = () => {
-  var nomCom = ["test","t"]
-  var reaction="☺️"
-  return { nomCom, execute,reaction }
-};
+// ping.js
+module.exports = {
+    nomCom: "ping", // command name
+    reaction: "🏓",  // optional reaction emoji
 
-async function  execute  (origineMessage,zok) {
-  console.log("Commande saisie !!!s")
-   let z ='Salut je m\'appelle *Zokou* \n\n '+'je suis un bot Whatsapp Multi-appareil '
-      let d =' developpé par *Djalega++*'
-      let varmess=z+d
-      var img='https://telegra.ph/file/626e7105422c8908f723d.jpg'
-await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
-}  */ 
+    fonction: async (origin, zk, opts) => {
+        try {
+            const { repondre } = opts; // from commandeOptions
+
+            // Start timer
+            const start = Date.now();
+
+            // Send temporary message
+            const tempMsg = await zk.sendMessage(origin, { text: "🏓 Pinging..." });
+
+            // Calculate latency
+            const latency = Date.now() - start;
+
+            // Send final response
+            await zk.sendMessage(origin, {
+                text: `🏓 Pong!\nLatency: ${latency} ms\nBot: ${opts.idBot.split("@")[0]}\nPrefix: ${opts.prefixe}`
+            }, { quoted: tempMsg });
+
+        } catch (e) {
+            console.log("Ping error:", e);
+            if (opts.repondre) opts.repondre("Error executing ping command!");
+        }
+    }
+};
