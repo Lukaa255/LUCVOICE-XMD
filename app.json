@@ -1,9 +1,9 @@
 {
-  "name": "CHUGA-XMD",
-  "description": "chugastan",
+  "name": "LUCVOICE-XMD",
+    "description":"Best whatsapp bot💥 developed by Lucvoice 💚",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/ety154.jpg",
-  "repository": "https://github.com/chugastan/CHUGA-XMD-",
+  "logo": "https://files.catbox.moe/t21l69.png",
+  "repository": "https://github.com/lukaa255/LUCVOICE-XMD-",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -18,7 +18,7 @@
       "required": false
     },
     "AUTO_REACT_STATUS": {
-      "description": "Bot will react to status with ❤ automatically (type yes to active or no to deactive; don't write in capital letter)",
+            "description":"Enter yes for your bot to auto like status",
       "value": "yes",
       "required": false
     },
@@ -34,12 +34,12 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "CHUGA XMD",
+      "value": "LUCVOICE XMD",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu; eg: url1,url2,url3.....",
-      "value": "https://files.catbox.moe/ety154.jpg",
+      "value": "https://files.catbox.moe/t21l69.png",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -47,12 +47,12 @@
       "value": "yes",
       "required": true
     },
-    "HEROKU_APY_KEY": {
-      "description": "insert your heroku api-key (this is optionnal)",
-      "required": true
-    },
     "HEROKU_APP_NAME": {
       "description": "insert your heroku APP NAME (this is optionnal)",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "insert your heroku API-KEY (this is optionnal)",
       "required": true
     },
     "SESSION_ID": {
@@ -66,9 +66,9 @@
       "value": "chugastan"
     },
     "NUMERO_OWNER": {
-      "desc": "Your number, dont put '+' and put you area code (exemple of togo '228')",
+      "desc": "Your number, dont put '+' and put you area code (exemple of togo '255')",
       "required": false,
-      "value": "255622286792"
+      "value": ""
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
