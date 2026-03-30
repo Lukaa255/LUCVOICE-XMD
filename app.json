@@ -18,7 +18,7 @@
       "required": false
     },
     "AUTO_REACT_STATUS": {
-            "description":"Enter yes for your bot to auto like status",
+            "description":"Enter yes or no for your bot to auto like status",
       "value": "yes",
       "required": false
     },
@@ -34,7 +34,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "LUCVOICE XMD",
+      "value": "LUCVOICE-XMD",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -47,12 +47,12 @@
       "value": "yes",
       "required": true
     },
-    "HEROKU_APP_NAME": {
-      "description": "insert your heroku APP NAME (this is optionnal)",
-      "required": true
-    },
     "HEROKU_API_KEY": {
       "description": "insert your heroku API-KEY (this is optionnal)",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "insert your heroku APP NAME (this is optionnal)",
       "required": true
     },
     "SESSION_ID": {
@@ -63,7 +63,7 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "chugastan"
+      "value": "Lucvoice"
     },
     "NUMERO_OWNER": {
       "desc": "Your number, dont put '+' and put you area code (exemple of togo '255')",
