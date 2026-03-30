@@ -3,7 +3,7 @@
   "description":"LUCVOICE",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/t21l69.png",
-  "repository":"https://github.com/lukabrand/LUCVOICE-XMD-",
+  "repository":"https://github.com/Lukaa255/LUCVOICE-XMD-",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -100,6 +100,11 @@
       "description": "if you want to enable anti delete message put yes else put no",
       "value": "no",
       "required": true 
+        },
+    "ADM": }
+      "description": "Alternative anti-delete setting (type yes to active or no to deactive)",
+      "value": "yes",
+      "required": false
     }
   },
   "formation": {
