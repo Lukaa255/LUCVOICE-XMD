@@ -65,6 +65,3 @@
 
 
 
-
-<h2 align="center">  DEVELOPER SUPPORT!
-</h2>
