@@ -60,3 +60,11 @@
       <td><a href="https://github.com/mrfrankofcc/SUBZERO-MD/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Panel-File-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
     </tr>
  
+
+
+
+
+
+
+<h2 align="center">  DEVELOPER SUPPORT!
+</h2>
