@@ -30,8 +30,8 @@
 <p align="center">
     <strong>𝗙𝗢𝗥𝗞 𝗥𝗘𝗣𝗢𝗦𝗜𝗧𝗢𝗥𝗬 </strong>
   <br>
-    <a href="https://github.com/MRFRANKOFCC/SUBZERO-MD/fork" target="_blank">
-        <img alt="Fork Repo" src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue"/>
+    <a href="https://github.com/Lukaa255/LUCVOICE-XMD" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repo-181717?style=plastic&logo=github&logoColor=white&labelColor=181717" alt="GitHub Repo" />
     </a>
 </p>
 <p align="center">
