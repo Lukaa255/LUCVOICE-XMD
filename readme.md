@@ -37,7 +37,7 @@
 <p align="center">
     <strong>𝗚𝗘𝗧 𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗜𝗗 </strong>
   <br>
-    <a href="https://pair.subzero.gleeze.com" target="_blank">
+    <a href="https://pair.s.gleeze.com" target="_blank">
         <img alt="Session ID" src="https://img.shields.io/badge/SESSION%20ID-100000?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=darkblue&color=darkpurple"/>
     </a>
 </p>
@@ -52,12 +52,12 @@
       <td><a href="https://talkdrove.com/share-bot/11" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=mrfrankofcc/SUBZERO-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=Lukaa255/LUCVOICE-XMD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
       <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
-      <td><a href="https://github.com/mrfrankofcc/SUBZERO-MD/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Panel-File-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://github.com/Lukaa255/LUCVOICE-XMD/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Panel-File-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
     </tr>
  
 
