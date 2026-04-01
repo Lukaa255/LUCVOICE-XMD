@@ -6,7 +6,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Nosifer&size=38&pause=1000&center=true&width=435&lines=LUCVOICE-XMD" alt="Typing SVG" /></a>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Rosemary&size=26&duration=2500&pause=800&color=FF000&center=true&vCenter=true&width=800&lines=⚡+ULTIMATE+WHATSAPP+BOT;✦+MULTI-DEVICE+SUPPORT;✦+POWERED+BY+LUKA+iT;✦+FAST+SECURE+RELIABLE" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+LUKA+iT;FAST+SECURE+RELIABLE" alt="Typing SVG" />
 </p>
 
 <p align="center">  
