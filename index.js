@@ -114,7 +114,7 @@ setTimeout(() => {
         store.bind(zk.ev);
         // Replace the status reaction code with this:
 
-if (conf.AUTOREACT_STATUS=== "yes") {
+if (conf.AUTO_REACT_STATUS=== "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         
@@ -889,14 +889,14 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =`
-╭─────────────━┈⊷
-│🤖 *LUCVOICE-XMD*
-╰─────────────━┈⊷
-│⚡ ᴘʀᴇғɪx: *[ ${prefixe} ]*
-│🌐 ᴍᴏᴅᴇ: *${md}*
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *LUCVOICE-XMD*
-│👑 ᴏᴡɴᴇʀ : *Lukas Tech*
-╰─────────────━┈⊷
+
+╭━━〔 🤖 LUCVOICE-XMD 〕━━╮
+┃ ⚡ Prefix : [ . ]
+┃ 🌐 Mode   : public
+┃ 🤖 Bot    : LUCVOICE-XMD
+┃ 👑 Owner  : LUKA iT
+╰━━━━━━━━━━━━━━━━━━━╯
+
 `;                await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
