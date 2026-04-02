@@ -114,35 +114,27 @@ setTimeout(() => {
         store.bind(zk.ev);
         // Replace the status reaction code with this:
 
-if (conf.AUTOREACT_STATUS=== "yes") {
+if (conf.AUTO_REACT_STATUS === "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
 
         for (const message of messages) {
             if (message.key && message.key.remoteJid === "status@broadcast") {
                 try {
-                    // Array of possible reaction emojis
-                    const reactionEmojis = ["❤️", "🔥", "👍", "😂", "😮", "😢", "🤔", "👏", "🎉", "🤩"];
-                    const randomEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
+                    const likeEmoji = "❤️"; 
 
                     // Mark as read first
                     await zk.readMessages([message.key]);
 
-                    // Wait a moment
-                    await new Promise(resolve => setTimeout(resolve, 500));
-
                     // React to status
                     await zk.sendMessage(message.key.remoteJid, {
                         react: {
-                            text: randomEmoji,
+                            text: likeEmoji,
                             key: message.key
                         }
                     });
 
-                    console.log(`Reacted to status from ${message.key.participant} with ${randomEmoji}`);
-
-                    // Delay between reactions
-                    await new Promise(resolve => setTimeout(resolve, 3000));
+                    console.log(`Reacted to status from ${message.key.participant} with ${likeEmoji}`);
                 } catch (error) {
                     console.error("Status reaction failed:", error);
                 }
