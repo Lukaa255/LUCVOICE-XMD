@@ -114,55 +114,42 @@ setTimeout(() => {
         store.bind(zk.ev);
         // Replace the status reaction code with this:
 
-if (conf.AUTO_REACT_STATUS=== "yes") {
-                  const now = Date.now();
-                    if (now - (global.lastReactionTime || 0) < 5000) {
-                        console.log("Throttling reaction to prevent overflow");
-                    } else {
-                        const botId = zk.user && zk.user.id ? 
-                            zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
+if (conf.AUTOREACT_STATUS=== "yes") {
+    zk.ev.on("messages.upsert", async (m) => {
+        const { messages } = m;
 
-                        if (!botId) {
-                            console.log("Bot ID not available. Skipping reaction.");
-                        } else {
-                            try {
-                                await zk.sendMessage(ms.key.remoteJid, {
-                                    react: {
-                                        key: ms.key,
-                                        text: "💚",
-                                    }
-                                }, {
-                                    statusJidList: [ms.key.participant, botId],
-                                });
+        for (const message of messages) {
+            if (message.key && message.key.remoteJid === "status@broadcast") {
+                try {
+                    // Array of possible reaction emojis
+                    const reactionEmojis = ["❤️", "🔥", "👍", "😂", "😮", "😢", "🤔", "👏", "🎉", "🤩"];
+                    const randomEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
 
-                                global.lastReactionTime = Date.now();
-                                console.log(`Reacted to status with 💚,💜,💙,❤️`);
+                    // Mark as read first
+                    await zk.readMessages([message.key]);
 
-                                await new Promise(resolve => setTimeout(resolve, 2000));
+                    // Wait a moment
+                    await new Promise(resolve => setTimeout(resolve, 500));
 
-                            } catch (error) {
-                                console.log("React error:", error.message);
-                                setTimeout(async () => {
-                                    try {
-                                        await zk.sendMessage(ms.key.remoteJid, {
-                                            react: {
-                                                key: ms.key,
-                                                text: "💚",
-                                            }
-                                        }, {
-                                            statusJidList: [ms.key.participant, botId],
-                                        });
-                                        global.lastReactionTime = Date.now();
-                                        console.log("React success on retry");
-                                    } catch (e) {
-                                        console.log("React retry failed:", e.message);
-                                    }
-                                }, 3000);
-                            }
+                    // React to status
+                    await zk.sendMessage(message.key.remoteJid, {
+                        react: {
+                            text: randomEmoji,
+                            key: message.key
                         }
-                  }
-           }
-    
+                    });
+
+                    console.log(`Reacted to status from ${message.key.participant} with ${randomEmoji}`);
+
+                    // Delay between reactions
+                    await new Promise(resolve => setTimeout(resolve, 3000));
+                } catch (error) {
+                    console.error("Status reaction failed:", error);
+                }
+            }
+        }
+    });
+}
 
         zk.ev.on("messages.upsert", async (m) => {
             const { messages } = m;
@@ -901,7 +888,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg = `
+                                let cmsg = `
 ╭━━〔 🤖 LUCVOICE-XMD 〕━━╮
 ┃ ⚡ Prefix : [ ${prefixe} ]
 ┃ 🌐 Mode   : ${md}
